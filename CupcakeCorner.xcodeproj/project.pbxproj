@@ -12,6 +12,7 @@
 		20CF8CFB2B3EBF610059EB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CF8CFA2B3EBF610059EB90 /* Assets.xcassets */; };
 		20CF8CFE2B3EBF610059EB90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CF8CFD2B3EBF610059EB90 /* Preview Assets.xcassets */; };
 		20CF8D052B3EC8A20059EB90 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF8D042B3EC8A20059EB90 /* AsyncImageView.swift */; };
+		20CF8D072B3ECEFC0059EB90 /* DisableFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF8D062B3ECEFC0059EB90 /* DisableFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		20CF8CFA2B3EBF610059EB90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20CF8CFD2B3EBF610059EB90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		20CF8D042B3EC8A20059EB90 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		20CF8D062B3ECEFC0059EB90 /* DisableFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				20CF8CF62B3EBF5F0059EB90 /* CupcakeCornerApp.swift */,
 				20CF8CF82B3EBF5F0059EB90 /* ContentView.swift */,
 				20CF8D042B3EC8A20059EB90 /* AsyncImageView.swift */,
+				20CF8D062B3ECEFC0059EB90 /* DisableFormView.swift */,
 				20CF8CFA2B3EBF610059EB90 /* Assets.xcassets */,
 				20CF8CFC2B3EBF610059EB90 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				20CF8CF92B3EBF5F0059EB90 /* ContentView.swift in Sources */,
 				20CF8CF72B3EBF5F0059EB90 /* CupcakeCornerApp.swift in Sources */,
 				20CF8D052B3EC8A20059EB90 /* AsyncImageView.swift in Sources */,
+				20CF8D072B3ECEFC0059EB90 /* DisableFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
