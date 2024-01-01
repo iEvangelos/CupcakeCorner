@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200922D02B42E7D700B31FB8 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200922CF2B42E7D700B31FB8 /* CheckoutView.swift */; };
 		2014272D2B424DDF00B6560E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014272C2B424DDF00B6560E /* Order.swift */; };
 		2014272F2B424F1600B6560E /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014272E2B424F1600B6560E /* OrderView.swift */; };
 		201427312B4250A600B6560E /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201427302B4250A600B6560E /* AddressView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		200922CF2B42E7D700B31FB8 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		2014272C2B424DDF00B6560E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		2014272E2B424F1600B6560E /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		201427302B4250A600B6560E /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				20CF8CF82B3EBF5F0059EB90 /* ContentView.swift */,
 				2014272E2B424F1600B6560E /* OrderView.swift */,
 				201427302B4250A600B6560E /* AddressView.swift */,
+				200922CF2B42E7D700B31FB8 /* CheckoutView.swift */,
 				20CF8D042B3EC8A20059EB90 /* AsyncImageView.swift */,
 				20CF8D062B3ECEFC0059EB90 /* DisableFormView.swift */,
 				206326882B400B5A00AA4C69 /* HapticView.swift */,
@@ -160,6 +163,7 @@
 			files = (
 				2063268B2B40156300AA4C69 /* ObservableClassCodableView.swift in Sources */,
 				2014272F2B424F1600B6560E /* OrderView.swift in Sources */,
+				200922D02B42E7D700B31FB8 /* CheckoutView.swift in Sources */,
 				206326892B400B5A00AA4C69 /* HapticView.swift in Sources */,
 				20CF8CF92B3EBF5F0059EB90 /* ContentView.swift in Sources */,
 				20CF8CF72B3EBF5F0059EB90 /* CupcakeCornerApp.swift in Sources */,
