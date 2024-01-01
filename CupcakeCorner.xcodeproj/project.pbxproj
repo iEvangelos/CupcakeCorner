@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2014272D2B424DDF00B6560E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014272C2B424DDF00B6560E /* Order.swift */; };
+		2014272F2B424F1600B6560E /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014272E2B424F1600B6560E /* OrderView.swift */; };
+		201427312B4250A600B6560E /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201427302B4250A600B6560E /* AddressView.swift */; };
+		206326892B400B5A00AA4C69 /* HapticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206326882B400B5A00AA4C69 /* HapticView.swift */; };
+		2063268B2B40156300AA4C69 /* ObservableClassCodableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2063268A2B40156300AA4C69 /* ObservableClassCodableView.swift */; };
 		20CF8CF72B3EBF5F0059EB90 /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF8CF62B3EBF5F0059EB90 /* CupcakeCornerApp.swift */; };
 		20CF8CF92B3EBF5F0059EB90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF8CF82B3EBF5F0059EB90 /* ContentView.swift */; };
 		20CF8CFB2B3EBF610059EB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CF8CFA2B3EBF610059EB90 /* Assets.xcassets */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2014272C2B424DDF00B6560E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		2014272E2B424F1600B6560E /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		201427302B4250A600B6560E /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		206326882B400B5A00AA4C69 /* HapticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticView.swift; sourceTree = "<group>"; };
+		2063268A2B40156300AA4C69 /* ObservableClassCodableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableClassCodableView.swift; sourceTree = "<group>"; };
 		20CF8CF32B3EBF5F0059EB90 /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CF8CF62B3EBF5F0059EB90 /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		20CF8CF82B3EBF5F0059EB90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,8 +67,13 @@
 			children = (
 				20CF8CF62B3EBF5F0059EB90 /* CupcakeCornerApp.swift */,
 				20CF8CF82B3EBF5F0059EB90 /* ContentView.swift */,
+				2014272E2B424F1600B6560E /* OrderView.swift */,
+				201427302B4250A600B6560E /* AddressView.swift */,
 				20CF8D042B3EC8A20059EB90 /* AsyncImageView.swift */,
 				20CF8D062B3ECEFC0059EB90 /* DisableFormView.swift */,
+				206326882B400B5A00AA4C69 /* HapticView.swift */,
+				2063268A2B40156300AA4C69 /* ObservableClassCodableView.swift */,
+				2014272C2B424DDF00B6560E /* Order.swift */,
 				20CF8CFA2B3EBF610059EB90 /* Assets.xcassets */,
 				20CF8CFC2B3EBF610059EB90 /* Preview Content */,
 			);
@@ -143,10 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2063268B2B40156300AA4C69 /* ObservableClassCodableView.swift in Sources */,
+				2014272F2B424F1600B6560E /* OrderView.swift in Sources */,
+				206326892B400B5A00AA4C69 /* HapticView.swift in Sources */,
 				20CF8CF92B3EBF5F0059EB90 /* ContentView.swift in Sources */,
 				20CF8CF72B3EBF5F0059EB90 /* CupcakeCornerApp.swift in Sources */,
+				201427312B4250A600B6560E /* AddressView.swift in Sources */,
 				20CF8D052B3EC8A20059EB90 /* AsyncImageView.swift in Sources */,
 				20CF8D072B3ECEFC0059EB90 /* DisableFormView.swift in Sources */,
+				2014272D2B424DDF00B6560E /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
