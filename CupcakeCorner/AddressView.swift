@@ -8,10 +8,27 @@
 import SwiftUI
 
 struct AddressView: View {
-    var order: Order
+    // The @Bindable property wrapper creates the missing bindings for us – it produces two-way bindings that are able to work with the @Observable macro, without having to use @State to create local data
+    @Bindable var order: Order
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Form {
+                Section {
+                    TextField("Name", text: $order.name)
+                    TextField("Street Address", text: $order.streetAddress)
+                    TextField("City", text: $order.city)
+                    TextField("Zip", text: $order.zip)
+                }
+                
+                Section {
+                    NavigationLink("Check out") {
+                        Text("Detail View")
+                    }
+                    .disabled(order.hasValidAddress == false)
+                }
+            }
+        }
     }
 }
 
